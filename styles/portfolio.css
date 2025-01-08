@@ -19,7 +19,9 @@
 .text-primary{
     color: #FD6E0A;
 }
-
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -39,6 +41,32 @@ nav{
     border-radius: 5px;
     font-size: 20px;
     border: none;
+}
+/* main styles */
+main{
+max-width: 1140px;
+margin: 0 auto;
+
+}
+
+
+/* about styles */
+.about{
+    border-radius: 10;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+
+}
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 15px;
+    color: #757575;
 }
 nav ul li{
     list-style: none;
@@ -84,4 +112,11 @@ nav ul{
 .banner-content{
 width: 580px;
 
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
