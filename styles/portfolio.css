@@ -22,6 +22,7 @@
 .secondary-bg{
     background-color: #FFF8F3;
 }
+
 /* nav styles */
 nav{
     display: flex;
@@ -48,6 +49,10 @@ max-width: 1140px;
 margin: 0 auto;
 
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 
 /* about styles */
@@ -55,10 +60,10 @@ margin: 0 auto;
     border-radius: 10;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
-
+    
 
 }
+
 .section-title{
     font-size: 30px;
     font-weight: bold;
@@ -67,6 +72,9 @@ margin: 0 auto;
 .section-description{
     font-size: 15px;
     color: #757575;
+}
+.text-center{
+    text-align: center;
 }
 nav ul li{
     list-style: none;
@@ -120,3 +128,14 @@ width: 580px;
     display: flex;
     justify-content: space-around;
 }
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: ;5px
+    box-shadow: opx 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+  
